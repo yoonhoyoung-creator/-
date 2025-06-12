@@ -16,6 +16,9 @@
       border:1px solid black;
       padding:10px;
     }
+    th {
+      text-align: left;
+    }
     td {
       text-align: right;
     }
@@ -27,9 +30,12 @@
 <body>
   <table>
     <caption>출처: 통계청 100대 지표</caption>
-    <col>
-    <col span="3">
-    <col class="col-2022">   
+    <colgroup>
+        <col>
+        <col span="3">
+        <col class="col-2022">   
+    </colgroup>
+
     <thead>
       <tr>
         <th>지표</th>
