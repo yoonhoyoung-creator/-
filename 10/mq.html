@@ -15,9 +15,26 @@
       font-size: 4rem;
     }
     /* Do it! 미디어 쿼리 사용  */
+
     body {
-      background: url(images/bg-light.jpg) no-repeat fixed;  
+      background: url(images/bg-dark.jpg) no-repeat fixed;  
       background-size: cover;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+      body {
+        background: url(images/cat.png) no-repeat fixed;
+        background-size: cover;
+        color: #fff;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      body {
+        background: url(images/bg-small.jpg) no-repeat fixed;
+        background-size: cover;
+        color: #fff;
+      }
     }
 
   </style>
