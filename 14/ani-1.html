@@ -9,10 +9,16 @@
       height: 100px;
       background-color: #fa0;
       /* Do it! 2초 동안 애니메이션 실행하기 */
+      animation-name: slideRignt;
+      animation-duration: 2s;
 
     }
 
     /* Do it! @keyframes로 애니메이션 정의하기 */
+    @keyframes slidRight {
+      from { transform: translateX(0); }
+      to {transform: trnaslateX(500px); }
+    }
 
   </style>
 </head>
